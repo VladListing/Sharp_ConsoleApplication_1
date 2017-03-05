@@ -12,6 +12,10 @@ namespace Sharp_ConsoleApplication_1
         {
             Console.WriteLine("проверочный текст");
 
+
+            Console.WriteLine("изменение 3");
+
+
             Console.ReadLine();
         }
     }
