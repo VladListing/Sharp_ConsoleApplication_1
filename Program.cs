@@ -10,7 +10,9 @@ namespace Sharp_ConsoleApplication_1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("проверочный текст");
 
+            Console.ReadLine();
         }
     }
 }
