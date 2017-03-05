@@ -14,6 +14,8 @@ namespace Sharp_ConsoleApplication_1
 
             Console.WriteLine("изменение 1");
 
+            Console.WriteLine("изменение 2");
+
             Console.ReadLine();
         }
     }
