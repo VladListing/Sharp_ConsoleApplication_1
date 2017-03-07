@@ -24,10 +24,25 @@ namespace Sharp_ConsoleApplication_1
 
             if (genre == "комедия")
             {
+                Console.ForegroundColor = ConsoleColor.Green; // устанавливаем цвет текста
+                //Console.BackgroundColor = ConsoleColor.White; // устанавливаем цвет фона для текста
                 Console.WriteLine("В таком случае рекомендуем посмотреть вам следующие фильмы: ");
                 Console.WriteLine("Фильм 1 ");
                 Console.WriteLine("Фильм 2 ");
                 Console.WriteLine("Фильм 3 ");
+
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("Зеленый цвет текста");
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("Темно серый цвет текста");
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("Темно желтый цвет текста");
+                Console.ResetColor();//Сброс цвет текста
+                Console.WriteLine("Обычный цвет текста");
+
+
+                Console.ResetColor(); // сбрасываем цвет в стандартный
+
             }
 
             else if (genre == "драма")
